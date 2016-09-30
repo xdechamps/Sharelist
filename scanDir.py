@@ -1,5 +1,5 @@
 import os
-path = "/home/eons/Music/"
+path = "D:\Music"
 music = os.listdir(path)
 mp3 = []
 dir = []
@@ -9,3 +9,7 @@ for x in music:
     else:
         dir.append(path+x)
 
+for root, dirs, files in os.walk("D:\Music", topdown=True):
+    for name in files:
+        if ".mp3" in os.path.join(root, name):
+            print(os.path.join(root, name))

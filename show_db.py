@@ -1,6 +1,9 @@
 import sqlite3
-conn = sqlite3.connect('/home/eons/PycharmProjects/Sharelist/web/test.db')
+conn = sqlite3.connect("example.db")
 c = conn.cursor()
 
-for row in c.execute('SELECT * FROM testlibrary ORDER BY artist'):
+
+for row in c.execute('SELECT * FROM library ORDER BY artist'):
         print(row)
+
+conn.close()
