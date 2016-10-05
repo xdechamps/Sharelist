@@ -38,4 +38,4 @@ conn.commit()
 conn.close()
 
 
-print("--- %s seconds ---" % (time.time() - start_time))
+print("\n--- %s seconds ---" % (time.time() - start_time))
