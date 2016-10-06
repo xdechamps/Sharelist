@@ -9,6 +9,7 @@ root = tk.Tk()
 root.withdraw()
 file_path = filedialog.askdirectory()
 db = "sharelist.db"
+print(db)
 
 start_time = time.time()
 
@@ -17,6 +18,8 @@ c = conn.cursor()
 
 # Create table
 c.execute('''CREATE TABLE IF NOT EXISTS library (artist TEXT, song TEXT, path TEXT)''')
+c.execute('''CREATE TABLE IF NOT EXISTS playlist (id real, vote real, position real)''')
+
 
 for root, dirs, files in os.walk(file_path, topdown=True):
     for name in files:
