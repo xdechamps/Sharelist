@@ -8,7 +8,7 @@ import time
 root = tk.Tk()
 root.withdraw()
 file_path = filedialog.askdirectory()
-db = "sharelist.db"
+db = "sharelistTEST.db"
 print(db)
 
 start_time = time.time()
@@ -17,7 +17,7 @@ conn = sqlite3.connect(db)
 c = conn.cursor()
 
 # Create table
-c.execute('''CREATE TABLE IF NOT EXISTS library (artist TEXT, song TEXT, path TEXT)''')
+c.execute('''CREATE TABLE IF NOT EXISTS library (artist TEXT, song TEXT, album TEXT, path TEXT)''')
 c.execute('''CREATE TABLE IF NOT EXISTS playlist (id real, vote real, position real)''')
 
 
@@ -26,8 +26,8 @@ for root, dirs, files in os.walk(file_path, topdown=True):
         if ".mp3" in os.path.join(root, name):
             try:
                 tag = TinyTag.get(os.path.join(root, name))
-                c.execute('''INSERT INTO library(artist, song, path)
-                            VALUES(?,?,?)''', (tag.artist, tag.title, os.path.join(root, name)))
+                c.execute('''INSERT INTO library(artist, song, album, path)
+                            VALUES(?,?,?,?)''', (tag.artist, tag.title, tag.album, os.path.join(root, name)))
             except Exception:
                 print("Error with ", os.path.join(root, name))  # TODO Error with mp3 parser regarding 1 song duration
 

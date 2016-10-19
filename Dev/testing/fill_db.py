@@ -1,5 +1,5 @@
 import sqlite3
-conn = sqlite3.connect('/home/eons/PycharmProjects/Sharelist/web/test.db')
+conn = sqlite3.connect('/home/eons/PycharmProjects/Sharelist/Linux64/test.db')
 c = conn.cursor()
 
 # Create table

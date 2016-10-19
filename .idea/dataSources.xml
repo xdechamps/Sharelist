@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Sqlite (Xerial) - example.db" uuid="fdd92374-5875-41be-905a-f4a6cc0dd424">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/example.db</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="Sqlite (Xerial) - sharelist.db" uuid="91cf95b3-9fa9-40b6-a7fd-d2438ceb53a2">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/sharelist.db</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="Sqlite (Xerial) - sharelist.db [2]" uuid="f2cc12bd-8683-478d-992a-046f8cfa0b18">
+    <data-source source="LOCAL" name="Sqlite (Xerial) - sharelist.db" uuid="3132b4af-3f08-4a43-9e62-3d39ea7a4cbc">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/Dev/backend/sharelist.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Sqlite (Xerial) - sharelistTEST3.db" uuid="4b55cd4e-8c37-451f-9a53-6f78d35fb535">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/Dev/backend/sharelistTEST3.db</jdbc-url>
     </data-source>
   </component>
 </project>
