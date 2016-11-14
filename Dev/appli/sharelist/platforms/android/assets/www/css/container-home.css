@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url('../font/Pacifico.ttf');
+}
+
+body {
+  background-color: #373A3C;
+}
+
+main {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  height: 100vh;
+}
+
+#container-home {
+  margin: auto;
+}
+
+h1#title {
+  color: #FFF;
+  font-family: 'Pacifico';
+  text-align: center;
+  font-size: 1.8em;
+  padding: 15px 0 30px 0;
+}
