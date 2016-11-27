@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript">var $ = require('jquery');</script>
+	<script type="text/javascript" src="js/server.js"></script>
+	<script src="http://localhost:8888/socket.io/socket.io.js"></script>
+	<script>var socket = io("http://localhost:8888");</script>
+	<script src="js/scanLibrary.js" charset="utf-8"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Sharelist</title>
+</head>
+
+<body>
+	<div id="connection"></div>
+	<div id="message"></div>
+  <div class="col-sm-6">
+    <img id="img-qr">
+  </div>
+	<audio src="/Users/HP/Music/Daft Punk/Discovery/03 Digital Love.mp3" controls>
+  <p>Fallback content goes here.</p>
+  </audio>
+	<input type="button" onclick="ouvrirDossier()"></input>
+	</body>
+	<script src="js/QR.js" charset="utf-8"></script>
+</html>
