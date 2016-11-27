@@ -7,6 +7,10 @@
     width: 100% !important;
   }
 }
+.chemin{
+  display:none;
+  visibility: hidden;
+}
 
 #chargement {
   border: 3px solid transparent;
@@ -187,7 +191,7 @@ main {
 
 #lecteur-progress-current {
   height: 2px;
-  width: 62%;
+  width: 0%;
   background-color: red;
 }
 
@@ -292,7 +296,7 @@ main {
 }
 
 #bibli {
-  overflow: scroll;
+  overflow: auto;
 }
 
 #bibli .add {
