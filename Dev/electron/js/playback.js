@@ -13,9 +13,13 @@ function pausePlayback(){
   paused = true;
 }
 // $('#duration-total').text = ;
-$('#duration-total').html(secToMinSec(document.getElementById("player").duration));
-window.setInterval(function(){
-  $('#duration-current').html(secToMinSec(document.getElementById("player").currentTime));
+var dureTotal = document.getElementById("player").duration;
+$('#duration-total').html(secToMinSec(dureTotal));
+setInterval(function(){
+  var dureCurrent = document.getElementById("player").currentTime;
+  $('#duration-current').html(secToMinSec(dureCurrent));
+  pourcentAvancement = dureCurrent/dureTotal;
+  $('#lecteur-progress-current').css("width",(dureCurrent/dureTotal)*100+"%");
 }, 1000);
 
 function secToMinSec(secs){
