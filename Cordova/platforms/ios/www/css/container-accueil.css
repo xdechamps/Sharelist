@@ -1,0 +1,34 @@
+#container-accueil {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+#container-accueil h1 {
+  margin: 30px auto 10px auto;
+  color: #3498db;
+  font-weight: 900;
+}
+
+#help {
+  flex-grow: 1;
+  background-color: #FFF;
+  color: #373A3C;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  overflow: auto;
+  word-break: break-word;
+}
+
+#ok {
+  margin: 10px auto 30px auto;
+}
+
+#ok a {
+  background-color: #3498db;
+  border-color: #3498db;
+}

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url('../font/Pacifico.ttf');
+}
+
+body {
+  background-color: #373A3C;
+}
+
+main {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  height: 100vh;
+}
+
+h1.title {
+  color: #FFF;
+  font-family: 'Pacifico';
+  text-align: center;
+  font-size: 1.8em;
+}
+
+.desc {
+  color: gray;
+  font-size: 0.7em;
+  margin-bottom: 30px;
+  display: flex;
+  text-align: left;
+}
+
+.desc .icon {
+  margin-right: 15px;
+  justify-content: center;
+  align-self: center;
+}
+
+.desc .text {
+  border-left: 1px solid gray;
+  padding-left: 15px;
+}
+
+#help h2 {
+  font-size: 1.3em;
+}
+
+#help h3 {
+  font-size: 1em;
+}

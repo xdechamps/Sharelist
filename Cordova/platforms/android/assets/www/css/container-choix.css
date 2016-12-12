@@ -1,0 +1,33 @@
+#container-choix {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.home {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  width: 100%;
+  height: 50vh;
+}
+
+.box {
+  margin: auto;
+  text-align: center;
+  color: #FFF;
+}
+
+#container-choix h1 {
+  font-size: 1em;
+  border: 2px solid #FFF !important;
+}
+
+h2 {
+  font-size: 0.7em;
+  margin-top: 5px;
+  color: #99DFFF;
+}

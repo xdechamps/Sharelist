@@ -1,0 +1,63 @@
+#container-music {
+  margin-top: 104px;
+  display: none;
+}
+
+#title {
+  font-size: 1.2em;
+  text-align: center;
+  color: rgb(19, 92, 179);
+  font-weight: 900;
+}
+
+.box {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  margin: 10px 0;
+}
+
+.box:last-child {
+  margin-bottom: 15px;
+}
+
+.img {
+  width: 60px;
+  margin-right: 10px;
+}
+
+
+.infos {
+  font-size: 0.85em;
+  margin: auto 0;
+}
+
+.duration {
+  font-size: 0.75em;
+}
+
+.ajout {
+  margin: auto 0 auto auto;
+  cursor: pointer;
+}
+
+.ajout .fa {
+  padding-left: 0.25rem;
+}
+
+.cotation {
+  margin: auto 0 auto auto;
+  cursor: pointer;
+}
+
+.cotation .fa {
+  margin: 10px;
+}
+
+.fa-thumbs-o-up {
+  color: green;
+}
+
+.fa-thumbs-o-down {
+  color: red;
+}

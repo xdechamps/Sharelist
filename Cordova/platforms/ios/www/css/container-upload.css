@@ -1,0 +1,79 @@
+/*
+##     ##   ########    ##          #######       ###      ########
+##     ##   ##     ##   ##         ##     ##     ## ##     ##     ##
+##     ##   ##     ##   ##         ##     ##    ##   ##    ##     ##
+##     ##   ########    ##         ##     ##   ##     ##   ##     ##
+##     ##   ##          ##         ##     ##   #########   ##     ##
+##     ##   ##          ##         ##     ##   ##     ##   ##     ##
+ #######    ##          ########    #######    ##     ##   ########
+*/
+
+#container-upload {
+  display: none;
+  margin: auto;
+  width: 90%;
+}
+
+#logged {
+  text-align: center;
+  color: #FFF;
+  padding: 15px;
+}
+
+#logged .btn-group {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+#btn-group-upload {
+  background-color: #444647;
+  border: 2px solid #545454;
+  border-radius: 5px;
+}
+
+#btn-group-upload i {
+  margin: auto;
+  padding: 20px;
+  background-color: #da5353;
+  border-radius: 0px 2px 2px 0;
+}
+
+#sendFichier {
+  flex-grow: 1;
+}
+
+#cancelFichier {
+  width: 20%;
+}
+
+#chronotime {
+  /*margin-top: 30px;*/
+  height: 24px;
+  color: gray;
+}
+
+#label-upload-fichier {
+  /*background-color: #444647;*/
+  padding: 20px;
+  /*display: block;*/
+  /*border-radius: 5px;*/
+  /*border: 2px solid #545454;*/
+  margin: 0;
+  flex-grow: 1;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#go-home {
+  display: inline-block;
+  margin-top: 25px;
+  background-color: #373A3C;
+  color: gray;
+  text-decoration: none;
+}
+
+#go-home span {
+  font-size: 0.75em;
+  font-weight: 900;
+}

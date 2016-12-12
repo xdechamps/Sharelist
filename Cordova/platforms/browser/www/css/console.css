@@ -1,0 +1,20 @@
+#console {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  margin: 5px;
+  background-color: rgba(0,0,0,0.4);
+  color: #FFF;
+  font-size: 0.7em;
+  font-family: monospace;
+}
+
+#console div {
+  padding: 0 5px;
+}
+
+#console span {
+  color: green;
+  font-weight: bold;
+}

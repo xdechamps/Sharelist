@@ -1,0 +1,89 @@
+/* COMMON */
+
+body {
+
+}
+
+img {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 377px){
+  #container-music {
+    margin-top: 128px !important;
+  }
+  #container-music-artist {
+    margin-top: 125px !important;
+  }
+}
+
+/* FIXED */
+
+#container-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #e8e8e8;
+}
+
+#music-now {
+  font-size: 0.8em;
+  background-color: #2D2D2D;
+  color: #FFF;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+#music-now-in {
+  flex-grow: 1;
+  padding: 15px;
+}
+
+#music-now-in i {
+  margin-right: 8px;
+}
+
+#open-playlist {
+  background-color: #000;
+  padding: 15px 18px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+#open-playlist i {
+  margin: auto;
+}
+
+#col-box-search {
+  padding: 0;
+}
+
+#box-search {
+  padding: 10px;
+}
+
+/* MUSIC */
+
+/* PLAYLIST */
+
+.alert {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: 99999;
+  display: none;
+  border: none;
+  border-radius: 0;
+}
